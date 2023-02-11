@@ -10,13 +10,6 @@ import Section8 from "./homepageComponents/section8.js";
 import Section9 from "./homepageComponents/section9.js";
 import Footer from "./homepageComponents/footer.js";
 
-/*
-
-        
-        
-
-*/
-
 export default function Home()
 {
   return (

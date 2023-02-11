@@ -1,5 +1,6 @@
 // Import the FontAwesomeIcon component
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { CyberpunkGlossaryComboBox, ComboBoxProps } from "../components/cyberpunkGlossary"
 import
 {
     faTelegram
@@ -23,6 +24,12 @@ export default function Section2()
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen></iframe>
+                        </div>
+                        <div className="flex items-center justify-center mb-6 mt-5">
+                            <CyberpunkGlossaryComboBox 
+                                comboBoxClass="w-full bg-slate-300 text-black hover:bg-red-600 active:bg-red-900 font-bold uppercase text-base px-8 py-3 rounded-[24px] shadow-md hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                                optionBoxClass="w-full bg-slate-300 text-black hover:bg-red-600 active:bg-red-900 font-bold uppercase text-base px-8 py-3 rounded-[24px] shadow-md hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                            />
                         </div>
                         <a href="https://t.me/R3D4NG3L"
                             target="_blank"
